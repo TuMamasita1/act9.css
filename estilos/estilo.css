@@ -1,0 +1,204 @@
+/* Pon aquí el código CSS que necesites para aplicar los estilos necesarios */
+/*Actividad-1*/
+#act1-caja1{
+    position: relative;
+    top: 95px;
+    left:300px;
+}
+
+#act1-caja3{
+position: relative;
+left: 300px;
+}
+
+#act1-secon-párrafo{
+position: relative;
+bottom:20px ;
+
+}
+
+/*Actividad-2*/
+
+.act2{
+    position: relative;
+}
+
+#act2-caja1{
+    position: absolute;
+    right:0px ;
+}
+
+#act2-caja3{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#act2-primer-párrafo{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+
+#act2-secon-párrafo{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+
+/*Actividad-3*/
+
+.act3-contenedor{
+    position: relative;
+   
+}
+
+#act3-arriba-izquierda{
+    position: absolute;
+    left: 0px; 
+    top: 0px;
+}
+ 
+#act3-arriba-derecha{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#act3-abajo-izquierda {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#act3-abajo-derecha{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#act3-centrado{
+    position: absolute;
+    top: 50%;
+   right:45%;
+}
+
+/*actividad8*/
+
+#iamgen-perros-act8{
+ z-index: 3;
+}
+
+#iamgen-gato-act8{
+z-index: 2;
+}
+
+#iamgen-pajaros-act8{
+z-index: 1;
+}
+
+/*Actividad4*/
+
+#act4-contenedor{
+    position: relative;
+}
+#act4-cabecera{
+border:solid 1px blue;
+height: 30px;
+}
+
+#act4-menú{
+    float: left;
+    border: solid 1px blue;
+    height: 130px;
+    width: 30%;
+}
+
+#act4-cuerpo{
+    border: solid 1px blue;
+    height: 130px;
+    width: 100%;
+}
+
+#act4-pie{
+   clear: left;
+    border: solid 1px blue;
+    height: 30px;
+    
+   
+}
+
+/*actividad 5*/
+
+#imagen-gato{
+    float: left;
+    border: solid 2px red;
+    margin-right:  10px;
+    margin-bottom: 10px;
+}
+
+#segundo-parrafo{
+clear: left;
+}
+
+/*Actividad 6*/
+
+#act6-imagen-gato{
+    float: left;
+    border: dotted 2px black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#act6-imagen-perros{
+    float: right;
+    border: dashed 2px orange;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#act6-segundo-parrafo{
+    clear: both;
+}
+
+
+/* Quizá para algunas actividades debas modificar estilos estilos según corresponda */
+.contenedor-actividades .act7 .imagen-gato{
+    float: left;
+}
+
+.contenedor-actividades .act7 .imagen-perros{
+    float: right;
+}
+
+.contenedor-actividades .act8-contenedor{
+    position: relative;
+}
+
+.contenedor-actividades .act8 .imagen-perros{
+    float: right;
+    position: absolute;
+    left: 10px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-gato{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-pajaro{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act9 .act9-contenedor{
+    width: 500px;
+    border: 3px dotted gray;
+}
